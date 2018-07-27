@@ -1,13 +1,15 @@
 {
     "debug": true,
     "http": {
-        "listen": "0.0.0.0:4000",
+        "listen": "127.0.0.1:4000",
         "token": ""
     },
     "smtp": {
-        "addr": "mail.example.com:25",
-        "username": "falcon@example.com",
-        "password": "123456",
-        "from": "falcon@example.com"
+        "addr": "smtp-****.net",
+        "port": 25,
+        "username": "",
+        "password": "",
+        "from": "openfalcon@****.com",
+        "insecure_skip_verify": true
     }
 }

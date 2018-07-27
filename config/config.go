@@ -18,7 +18,9 @@ type SmtpConfig struct {
 	Addr     string `json:"addr"`
 	Username string `json:"username"`
 	Password string `json:"password"`
+	Port int `json:"port"`
 	From     string `json:"from"`
+	InsecureSkipVerify bool `json:"insecure_skip_verify"`
 }
 
 type GlobalConfig struct {
